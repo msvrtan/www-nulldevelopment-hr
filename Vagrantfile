@@ -3,8 +3,8 @@
 
 
 Vagrant.configure("2") do |config|
-  config.vm.box = "trusty32-phpdev-20141220"
-  config.vm.box_url = "http://dwnl.nulldevelopment.hr/boxes/trusty32-phpdev-20141220.box"
+  config.vm.box = "trusty32-phpdev-20150401"
+  config.vm.box_url = "http://dwnl.nulldevelopment.hr/boxes/trusty32-phpdev-20150401.box"
    
   config.vm.network "private_network", ip: "192.168.31.80"
   config.vm.synced_folder ".", "/vagrant", type: "nfs"
